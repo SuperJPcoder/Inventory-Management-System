@@ -1,0 +1,179 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:  url('https: //assets-global.website-files.com/5f4e8ec8a6a5b17c5cefcc00/64ed3a8de9fa1f3bf8b32496_%20Inventory%20.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #008CBA;
+}
+
+#content {
+    padding-bottom:30px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(209, 206, 206, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-column,
+#right-column {
+    width: 45%;
+}
+
+h1 {
+    text-align: center;
+    color: #008CBA;
+}
+
+label {
+    font-size: large;
+    display: block;
+    /* margin-top: 20px; */
+    /*margin-left: 17.5%;*/
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    /* Center-align the input fields */
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #008CBA;
+    background-color: rgba(255, 255, 255);
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    /* Center-align the button */
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#new-product,
+#new-supplier {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+#low-stock-items {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#low-stock-items h2 {
+    margin-top: 0;
+}
+
+#low-stock-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#low-stock-items li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#transaction-type {
+    display: flex;
+}
+
+#transaction-type input[type="radio"] {
+    margin-right: 10px;
+}
+
+#submit-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit-order {
+    width: 40%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+    /* Center-align the button */
+}
+
+/* Popup CSS */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup h2 {
+    text-align: center;
+    color: #008CBA;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.popup-content {
+    margin-top: 15px;
+}
+
+.popup-content label {
+    font-weight: bold;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #555;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.popup-close:hover {
+    color: #888;
+}
