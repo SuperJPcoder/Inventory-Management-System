@@ -1,3 +1,10 @@
+const dotenv = require('dotenv');
+
+dotenv.config();
+
+const MARIADB_PW = process.env.MARIADB_PW;
+const MARIADB_USERNAME = process.env.MARIADB_USERNAME;
+const MARIADB_PORT = process.env.MARIADB_PORT;
 
 var mariadb=require('mariadb');
 const cors = require('cors');
@@ -11,13 +18,11 @@ app.use(cors());
  
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
-
 const pool = mariadb.createPool({
     host: "127.0.0.1",
-    port: "3307",
-    user: "root",
-    password: "DBMSis@1",
+    port: MARIADB_PORT,
+    user: MARIADB_USERNAME,
+    password: MARIADB_PW,
     database: "DBMS_project",
     connectionLimit: 10
 });
