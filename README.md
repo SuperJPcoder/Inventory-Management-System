@@ -35,6 +35,7 @@ This project leverages MariaDB for database management and integrates JavaScript
 
 - Intuitive and visually appealing GUI for enhanced user experience.
 - CRUD operations for managing products, orders, and transactions.
+- PDF generation for Transaction Receipts.
 - Seamless navigation between different modules for streamlined workflow.
 - Responsive design using React to ensure compatibility across devices.
 
