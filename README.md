@@ -40,9 +40,9 @@ This project leverages MariaDB for database management and integrates JavaScript
 - Responsive design using React to ensure compatibility across devices.
 
 ## 🔗Media
-[![Watch the video](https://github.com/user-attachments/assets/08ad5766-0f7c-4ebe-9808-f1aad89b476c)](DBMS_video_web.mp4)
+https://github.com/user-attachments/assets/5415b95e-2dac-4aca-9116-9e231cb89e45
 
-https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/view?usp=drive_link
+Drive Link: https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/view?usp=drive_link
 
 ## 🛠Installation
 
@@ -53,9 +53,17 @@ https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/view?usp=drive
 
 ## 🔧Tech Stack
 
-- [MariaDB](https://mariadb.org/) - Database management system
-- JavaScript (js) - Programming language for frontend logic
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+<p align="left">
+  <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="40" height="40"/> MariaDB
+  </a><br/>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/> JavaScript (JS)
+  </a><br/>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/> React
+  </a>
+</p>
 
 ## 👨‍💻Team Members
 
