@@ -40,6 +40,7 @@ This project leverages MariaDB for database management and integrates JavaScript
 - Responsive design using React to ensure compatibility across devices.
 
 ## 🔗Media
+[![Watch the video](https://github.com/user-attachments/assets/08ad5766-0f7c-4ebe-9808-f1aad89b476c)](DBMS_video_web.mp4)
 
 https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/view?usp=drive_link
 
