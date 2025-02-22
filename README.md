@@ -1,9 +1,9 @@
-<h1 align="center">Inventory Management System</h1>
+<h1 align="center">Inventora - Simplifying Inventory, Amplifying Efficiency!</h1>
 
 <details>
 <summary>Table of Contents</summary>
 
-- [Why Inventory Management System?](#why-inventory-management-system)
+- [Why Inventora?](#why-inventora)
 - [📝Project Overview](#project-overview)
 - [😎Features](#features)
 - [🔗Media](#media)
@@ -15,7 +15,7 @@
 
 ---
 
-## Why Inventory Management System?
+## Why Inventora?
 
 Welcome to our Inventory Management System. We understand that managing a general store's inventory can be a complex task. That's why we have developed a solution that makes it easier than ever. Our system is designed to streamline your inventory management process, giving you more time to focus on what really matters - your customers.
 
@@ -54,6 +54,9 @@ Drive Link: https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/vi
 ## 🔧Tech Stack
 
 <p align="left">
+  <a href="https://nodejs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/> Node.js
+  </a><br/>
   <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="40" height="40"/> MariaDB
   </a><br/>
@@ -64,6 +67,7 @@ Drive Link: https://drive.google.com/file/d/1Kj5ixLvwOf05Dk1QzEJvP2hG2YrflWgs/vi
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/> React
   </a>
 </p>
+
 
 ## 👨‍💻Team Members
 
